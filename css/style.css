@@ -1,0 +1,222 @@
+
+
+@keyframes x {
+ from {
+    width: 0;
+ }
+ to {
+    width: 500px;
+ }
+
+
+ 
+
+}
+
+@keyframes box_tion {
+    
+    from {
+        width: 0;
+       
+    }to  {
+        width: 305px;
+     }
+   
+   
+    
+   
+   }
+
+
+.one {
+    
+    width: 600px;
+    height: 647px;
+    background-color: #FDE49E;
+    position: relative;
+    border-radius: 19.1px;
+    
+    
+
+}
+
+.one:hover {
+    
+  width: 600px;
+  height: 647px;
+  background-color: #d6c186;
+  position: relative;
+  border-radius: 19.1px;
+  
+  
+
+}
+.image1 {
+   margin-top: 60px;
+   width: 500px;
+   height: 300px;  
+    background-color: black;
+   margin-left: 279px;
+   position: absolute;
+   background: url(../images/1.jpg);
+   background-size: cover;
+   border-radius: 19.1px;
+   animation-name: x;
+   animation-duration: 6s;
+}
+
+.image2 {
+    margin-top: 60px;
+   display: inline-block;
+    width: 500px;
+    height: 300px; 
+    background-color: rgb(165, 54, 54);
+    position: absolute;
+    margin-left: 600px;
+    background: url(../images/2.jpeg);
+   background-size: cover;
+   border-radius: 19.1px;
+   animation-name: x;
+   animation-duration: 6s;
+}
+
+.tow {
+    float: left;  
+    margin-top: 91px;
+    margin-left: 40px;
+    
+}
+
+
+
+
+.box1 ,.box2 , .box3 {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px; 
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+  
+
+}
+
+
+.t1 , .t2 ,.t3{
+ 
+ padding-top: 5px;
+   text-align: center;
+   font-size: 30px
+}
+
+   
+
+   .image3 {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(36, 255, 189);
+    margin-top: 400px;
+    margin-left: 87px;
+    background: url(../images/3.jpg);
+    background-size: cover;
+    border-radius: 19.1px;
+    animation-name: x;
+    animation-duration: 6s;
+   }
+
+   .title {
+
+    position: absolute;
+    margin-left: 734px;
+    margin-top: -224px;
+    color: #929292;
+    line-height: 1.5;
+
+
+   }
+
+
+   .box4 {
+    width: 305px;
+    height: 154px;
+    position: absolute;
+    background-color: #DD761C;
+    margin-left: 726px;
+    margin-top: -90px;
+    border-radius: 19.1px;
+    animation-name: box_tion;
+    animation-duration: 6s;
+   }
+
+
+   .box5 {
+    width: 305px;
+    height: 154px;
+    position: absolute;
+    background-color: #6DC5D1;
+    margin-left: 1071px;
+    margin-top: -90px;
+    border-radius: 19.1px;
+    animation-name: box_tion;
+    animation-duration: 6s;
+   }
+
+
+   .t11 {
+    margin-top: 30px;
+  margin-left: 15px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+
+   }
+
+   .t22 {
+    margin-top: 5px;
+  margin-left: 15px;
+  line-height: 1.8;
+  color: white;
+   }
+
+   .t33 {
+    margin-top: 30px;
+  margin-left: 15px;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+
+   }
+   .t44 {
+    margin-top: 5px;
+  margin-left: 15px;
+  line-height: 1.8;
+  color: rgb(0, 0, 0);
+   }
+
+
+
+
+   .box4:hover {
+    width: 305px;
+    height: 154px;
+    position: absolute;
+    background-color: #8f5a2c;
+    margin-left: 726px;
+    margin-top: -90px;
+    border-radius: 19.1px;
+    animation-name: box_tion;
+    animation-duration: 6s;
+   }
+
+
+   .box5:hover {
+    width: 305px;
+    height: 154px;
+    position: absolute;
+    background-color: #6ca4ac;
+    margin-left: 1071px;
+    margin-top: -90px;
+    border-radius: 19.1px;
+    animation-name: box_tion;
+    animation-duration: 6s;
+   }
